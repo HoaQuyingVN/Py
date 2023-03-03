@@ -1,6 +1,6 @@
-# dnd-tools
+# Py
 
-... is a set of interactive command line tools for Dungeons and Dragons 5th Edition.  This is the source code for the python scripts and install functions used to create the [dnd-tools AUR package](https://aur.archlinux.org/packages/dnd-tools/).  The aim of this project, inspired by [donjon](http://donjon.bin.sh/), is to create an offline, cross-platform, gamemaster tool set -- since you probably have too many browser windows open already.  :-D
+PinYin is a set of interactive command line tools for Dungeons and Dragons 5th Edition.  This is the source code for the python scripts and install functions used to create the [dnd-tools AUR package](https://aur.archlinux.org/packages/dnd-tools/).  The aim of this project, inspired by [donjon](http://donjon.bin.sh/), is to create an offline, cross-platform, gamemaster tool set -- since you probably have too many browser windows open already.  :-D
 
 ---
 
@@ -27,17 +27,17 @@
 
 **Other Linux**:
 ~~~
-$ git clone https://github.com/gtbjj/dnd-tools
-$ cd dnd-tools
+$ git clone https://github.com/HoaQuyingVN/Py
+$ cd Py
 $ sudo python setup.py install
-$ /usr/bin/dnd-tools
+$ /usr/bin/py
 ~~~
 
 **Windows:**
 
 - Install [Python for Windows](https://www.python.org/downloads/windows/)
 - Copy and paste [the raw script](https://raw.githubusercontent.com/gtbjj/dnd-tools/master/scripts/dnd-tools) to a text editor
-- Save the script as ```dnd-tools.py```
+- Save the script as ```pinyin.py```
 - [Execute script in terminal with Python](http://pythoncentral.io/execute-python-script-file-shell/)
 
 ---
