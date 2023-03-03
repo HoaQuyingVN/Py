@@ -761,7 +761,14 @@ abilities = [
 #############
 
 def start_fn():
-    print("")
+    print("""
+  ____  _    __   ___       
+ |  _ \(_)_ _\ \ / (_)_ __  
+ | |_) | | '_ \ V /| | '_ \ 
+ |  __/| | | | | | | | | | |
+ |_|   |_|_| |_|_| |_|_| |_|
+                            
+""")
     print("        What would you like to do?          ")
     print("        1) (C)reate Character / NPC         ")
     print("        2) (R)oll Dice                      ")
