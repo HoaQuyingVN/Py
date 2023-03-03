@@ -1,0 +1,3 @@
+#!env/usr/python
+import .pinyin
+pinyin.start()
