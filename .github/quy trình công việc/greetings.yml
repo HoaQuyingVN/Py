@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: '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'
+        issue-message: "You opened issue, You need wait:)"
+        pr-message: "Message that will be displayed on users' first pull request"
